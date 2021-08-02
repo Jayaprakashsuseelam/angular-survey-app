@@ -1,0 +1,88 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+	font-size: 20px;
+	font-family: 'Work Sans', sans-serif;
+	color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #144363;
+  color: #fff;
+}
+h3{
+  font-weight: 600;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers textarea.form-control {
+    width: 300px;
+    height: 125px;
+}
+.answers label{
+  display: block;
+  margin-bottom: 18px;
+  color: #144363;
+  font-size: 18px;
+  font-weight: 600;
+}
+button{
+  font-family: 'Work Sans', sans-serif;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+    margin: 0 5px 20px;
+}
+button:hover{
+	background-color: #38a;
+}
+.survey-container {
+    width: 764px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 50px 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 18px -8px rgb(0 0 0 / 60%);
+}
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 300px;
+}
+.success-icon {
+    font-size: 52px;
+}
+.test{
+  display: none;
+}
